@@ -1,0 +1,48 @@
+/* GLOBAL */
+body{
+  margin: 0;
+}
+
+section{
+  display: flex;
+}
+
+/* BOXES */
+.box-esquerda{
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-direita{
+  width: 30%;
+}
+
+/* NOTICIA */
+.noticia{
+  width: 50%;
+  box-sizing: border-box; 
+  padding: 10px;
+}
+
+.noticia.inteira{
+  width: 100%;
+}
+
+.noticia .categoria{
+  margin: 0;
+  color: red;
+  font-weight: bold;
+}
+
+.noticia h2{
+  margin: 0;
+}
+
+.noticia p{
+  margin: 5px 0;
+}
+
+.noticia div{
+  display: flex;
+}
